@@ -47,6 +47,6 @@ function listarProductosConStock() {
 }
 
 // Pruebas
-console.log(buscarProducto('Auriculares'));          // Producto encontrado: Teclado Mecánico, Stock: 0
-console.log(venderProducto('Laptop HP', 2));       // Venta exitosa...
+console.log(buscarProducto('Auriculares'));         
+console.log(venderProducto('Laptop HP', 2));       
 console.log(listarProductosConStock());  // Lista de productos con stock > 0

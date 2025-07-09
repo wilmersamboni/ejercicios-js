@@ -5,6 +5,6 @@ const esAnagrama = (a, b) => {
   return ordenar(a) === ordenar(b); // compara las dos palabras si suscaracteres ordenados coinciden es un anagrama
 };
 
-console.log(esAnagrama('listen', 'silent')); // true
-console.log(esAnagrama('hola', 'aloh'));    // true
-console.log(esAnagrama('foo', 'ofr'));      // false
+console.log(esAnagrama('listen', 'silent')); 
+console.log(esAnagrama('hola', 'aloh'));    
+console.log(esAnagrama('foo', 'ofr'));     

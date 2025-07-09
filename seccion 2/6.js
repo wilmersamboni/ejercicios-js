@@ -12,5 +12,5 @@ const crear = (titulo, autor, año) => {
     }
 }
 const libro = crear('El señor de los anillos', 'J.R.R. Tolkien', 2014);
-console.log(libro.resumen()); // "El señor de los anillos fue escrito por J.R.R. Tolkien en el año 1954"
-console.log(libro.antiguo()); // true
+console.log(libro.resumen()); 
+console.log(libro.antiguo());

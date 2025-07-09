@@ -12,7 +12,7 @@ const caja = {
         this.tasa[moneda] = nuevaTasa;
     }
 };
-console.log(caja.convertir(100, 'dolar', 'euro')); // 180
+console.log(caja.convertir(100, 'dolar', 'euro')); 
 caja.actualizarTasa('euro', 1.5);
-console.log(caja.convertir(100, 'dolar', 'euro')); // 150
+console.log(caja.convertir(100, 'dolar', 'euro')); 
 

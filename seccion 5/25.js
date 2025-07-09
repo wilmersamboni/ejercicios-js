@@ -52,4 +52,4 @@ const matriz = [
 const inicio = [0, 0];
 const fin = [3, 3];
 
-console.log(rutaMinima(matriz, inicio, fin)); // Resultado: 7
+console.log(rutaMinima(matriz, inicio, fin)); 
